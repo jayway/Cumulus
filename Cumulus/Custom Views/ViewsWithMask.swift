@@ -1,5 +1,5 @@
 //
-//  CumulusView.swift
+//  ViewsWithMask.swift
 //  Cumulus
 //
 //  Created by Felix Hedlund on 2017-09-22.

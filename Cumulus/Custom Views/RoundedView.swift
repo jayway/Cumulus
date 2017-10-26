@@ -10,13 +10,13 @@ import UIKit
 
 @IBDesignable
 class RoundedView: UIView {
-    @IBInspectable var cornerRadius: CGFloat = 0
+    @IBInspectable var cornerRadius: CGFloat = 0{
+        didSet{
+            updateView()
+        }
+    }
     
-    
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    func updateView() {
         self.layer.cornerRadius = cornerRadius
     }
 }
