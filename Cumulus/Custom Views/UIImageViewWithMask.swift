@@ -33,29 +33,3 @@ class UIImageViewWithMask: UIImageView {
         }
     }
 }
-
-@IBDesignable
-class UIButtonWithMask: UIButton {
-    var maskImageView = UIImageView()
-    
-    @IBInspectable
-    var maskImage: UIImage? {
-        didSet {
-            maskImageView.image = maskImage
-            updateView()
-        }
-    }
-    
-    // This updates mask size when changing device orientation (portrait/landscape)
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        updateView()
-    }
-    
-    func updateView() {
-        if maskImageView.image != nil {
-            maskImageView.frame = bounds
-            mask = maskImageView
-        }
-    }
-}

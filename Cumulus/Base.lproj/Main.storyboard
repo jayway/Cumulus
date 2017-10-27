@@ -210,24 +210,21 @@
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9SD-C4-w4d" customClass="UIImageViewWithMask" customModule="Cumulus" customModuleProvider="target">
                                 <rect key="frame" x="53" y="126" width="268" height="268"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.85098039219999999" green="0.90588235289999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="maskImage" value="Cloud"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ma1-dx-BJi" customClass="UIButtonWithMask" customModule="Cumulus" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ma1-dx-BJi">
                                 <rect key="frame" x="53" y="126" width="268" height="268"/>
-                                <color key="backgroundColor" red="0.85098039219999999" green="0.90588235289999997" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ma1-dx-BJi" secondAttribute="height" multiplier="1:1" id="9bg-xI-PC7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <state key="normal" title="Add image">
-                                    <color key="titleColor" red="0.58431372550000005" green="0.66274509800000003" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="maskImage" value="Cloud"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="didPressAddImage:" destination="eKr-0u-x0a" eventType="touchUpInside" id="LGW-du-BW4"/>
                                 </connections>

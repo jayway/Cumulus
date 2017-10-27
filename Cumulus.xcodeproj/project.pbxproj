@@ -14,7 +14,7 @@
 		F7435D111F74495A006FF9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7435D101F74495A006FF9EE /* Assets.xcassets */; };
 		F7435D141F74495A006FF9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7435D121F74495A006FF9EE /* LaunchScreen.storyboard */; };
 		F7435D1C1F744C1A006FF9EE /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7435D1B1F744C1A006FF9EE /* RoundedView.swift */; };
-		F752551B1F7503F900774C18 /* ViewsWithMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752551A1F7503F900774C18 /* ViewsWithMask.swift */; };
+		F752551B1F7503F900774C18 /* UIImageViewWithMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752551A1F7503F900774C18 /* UIImageViewWithMask.swift */; };
 		F7BFDFF71F7CD8BB0088377B /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFDFF61F7CD8BB0088377B /* LoadingViewController.swift */; };
 		F7BFDFFB1F7CDC550088377B /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BFDFFA1F7CDC550088377B /* CloudKit.framework */; };
 		F7BFDFFD1F7CE7F40088377B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BFDFFC1F7CE7F40088377B /* Post.swift */; };
@@ -38,7 +38,7 @@
 		F7435D131F74495A006FF9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7435D151F74495A006FF9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7435D1B1F744C1A006FF9EE /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
-		F752551A1F7503F900774C18 /* ViewsWithMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsWithMask.swift; sourceTree = "<group>"; };
+		F752551A1F7503F900774C18 /* UIImageViewWithMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewWithMask.swift; sourceTree = "<group>"; };
 		F7BFDFF61F7CD8BB0088377B /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		F7BFDFF81F7CDC4B0088377B /* Cumulus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cumulus.entitlements; sourceTree = "<group>"; };
 		F7BFDFFA1F7CDC550088377B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
@@ -136,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				F7435D1B1F744C1A006FF9EE /* RoundedView.swift */,
-				F752551A1F7503F900774C18 /* ViewsWithMask.swift */,
+				F752551A1F7503F900774C18 /* UIImageViewWithMask.swift */,
 				F7BFE0081F7D1B570088377B /* UIImage+FixOrientation.swift */,
 			);
 			path = "Custom Views";
@@ -289,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7435D0C1F74495A006FF9EE /* ViewController.swift in Sources */,
-				F752551B1F7503F900774C18 /* ViewsWithMask.swift in Sources */,
+				F752551B1F7503F900774C18 /* UIImageViewWithMask.swift in Sources */,
 				F7BFE0011F7CE9E80088377B /* PostFetcher.swift in Sources */,
 				F7BFE00F1F7D26760088377B /* PushHelper.swift in Sources */,
 				F7BFDFF71F7CD8BB0088377B /* LoadingViewController.swift in Sources */,
