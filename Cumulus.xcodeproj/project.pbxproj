@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		88DAAF5E3F0F12821CE8688B /* Pods_Cumulus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2393174A60C4ECE467EAB9 /* Pods_Cumulus.framework */; };
 		F7435D0A1F74495A006FF9EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7435D091F74495A006FF9EE /* AppDelegate.swift */; };
-		F7435D0C1F74495A006FF9EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7435D0B1F74495A006FF9EE /* ViewController.swift */; };
 		F7435D0F1F74495A006FF9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7435D0D1F74495A006FF9EE /* Main.storyboard */; };
 		F7435D111F74495A006FF9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7435D101F74495A006FF9EE /* Assets.xcassets */; };
 		F7435D141F74495A006FF9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7435D121F74495A006FF9EE /* LaunchScreen.storyboard */; };
@@ -32,7 +31,6 @@
 		AE2393174A60C4ECE467EAB9 /* Pods_Cumulus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cumulus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7435D061F74495A006FF9EE /* Cumulus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cumulus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7435D091F74495A006FF9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7435D0B1F74495A006FF9EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7435D0E1F74495A006FF9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7435D101F74495A006FF9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7435D131F74495A006FF9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 			children = (
 				F7BFDFF81F7CDC4B0088377B /* Cumulus.entitlements */,
 				F7435D091F74495A006FF9EE /* AppDelegate.swift */,
-				F7435D0B1F74495A006FF9EE /* ViewController.swift */,
 				F7BFDFF61F7CD8BB0088377B /* LoadingViewController.swift */,
 				F7BFE0021F7CECED0088377B /* PostTableViewController.swift */,
 				F7BFE0041F7CF6950088377B /* CreatePostViewController.swift */,
@@ -288,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7435D0C1F74495A006FF9EE /* ViewController.swift in Sources */,
 				F752551B1F7503F900774C18 /* UIImageViewWithMask.swift in Sources */,
 				F7BFE0011F7CE9E80088377B /* PostFetcher.swift in Sources */,
 				F7BFE00F1F7D26760088377B /* PushHelper.swift in Sources */,
