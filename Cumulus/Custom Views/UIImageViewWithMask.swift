@@ -1,5 +1,5 @@
 //
-//  ViewsWithMask.swift
+//  UIImageViewWithMask.swift
 //  Cumulus
 //
 //  Created by Felix Hedlund on 2017-09-22.
@@ -20,7 +20,6 @@ class UIImageViewWithMask: UIImageView {
         }
     }
     
-    // This updates mask size when changing device orientation (portrait/landscape)
     override func layoutSubviews() {
         super.layoutSubviews()
         updateView()

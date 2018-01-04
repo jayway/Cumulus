@@ -36,6 +36,7 @@ class PushHelper: NSObject, UNUserNotificationCenterDelegate{
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         print(response.notification)
+        completionHandler()
         
     }
     
